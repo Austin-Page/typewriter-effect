@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: url('stormy.jpg') no-repeat center center / cover;
+    color: black;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+h1, h2 {
+    font-weight: 300;
+    margin: 0.4rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(186, 198, 198);
+}
+
+h2{
+    font-size: 1.5rem;
+    color: rgb(186, 198, 198);
+}
+/* */
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 0 1 rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
